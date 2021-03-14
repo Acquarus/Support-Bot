@@ -1,0 +1,20 @@
+$nomention
+$argsCheck[>1;`*userinfo @user`]
+$color[005cff]
+$footer[Informations Utilisateur • Aujourd'hui - $hour:$minute]
+$userInfo[**Informations Utilisateur**
+
+**Pseudo :**
+`` {username} ``
+
+**ID :**
+`` {ID} ``
+
+**Vérification :**
+`` {verified} ``
+
+**Hashtag Discord :**
+`` {discriminator} ``
+
+**Bot :**
+`` {BOT} `` ]
