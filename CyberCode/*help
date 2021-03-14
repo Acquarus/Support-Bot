@@ -1,0 +1,21 @@
+$nomention
+$if[$message==]
+$title[MA PAGE D'AIDE]
+$description[
+Préfix : `*`
+
+__Administration__
+```
+*warn, *checkwarn, *delwarn, *ban, *kick, *gstart, *clear, *adminmoney
+```
+__CyberPoints__
+```
+*pay, *work, *money me/@user
+```
+__Membres__
+```
+*covid, *dog, *userinfo, *serverinfo , *pièce
+```]
+$color[00ff00]
+$image[https://cdn.discordapp.com/attachments/816796157497704448/816995984764698664/DataCenter.jpg]
+$endif 
