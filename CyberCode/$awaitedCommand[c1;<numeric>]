@@ -1,0 +1,18 @@
+$nomention
+$deletecommand
+$if[$message==$getUserVar[captcha]]
+Captcha réussi !
+$giveRole[$authorID;816798977575223326]
+$takeRole[$authorID;820569703248166924]
+$deleteIn[2s]
+$deletecommand
+$channelSendMessage[820570537650421790;$username#$discriminator[$authorID] a bien passer le captcha !]
+$suppressErrors[Je n'ai pas pu donner ou enlever les rôles a $username]
+$endif
+$if[$message!=$getUserVar[captcha]]
+$kick
+$dm
+Vous avez été kick car vous n'avez pas remplis correctement le captcha 
+$channelSendMessage[820570537650421790;$username#$discriminator[$authorID] n'as pas bien rempli le captcha et s'est fait expulser !]
+$suppressErrors[Je n'ai pas pu expulser $username]
+$endif 
