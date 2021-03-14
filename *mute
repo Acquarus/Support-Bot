@@ -1,0 +1,9 @@
+$nomention  
+$deletecommand  
+$argsCheck[>2;`*mute @user <raison>`] 
+$giveRole[$mentioned[1];816773016323096587] 
+$title[Mute !] 
+$color[D7342A] 
+$description[<@$mentioned[1;no]> a bien été mute . Raison : $noMentionMessage] 
+$footer[Mute par $username • $day/$month/$year - $hour:$minute .] 
+$onlyPerms[manageroles;Il te manque des permissions]
