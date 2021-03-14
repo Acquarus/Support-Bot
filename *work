@@ -1,0 +1,7 @@
+$nomention
+$cooldown[2h;:x: Attend encore %time%]
+$setUserVar[points;$sum[$getUserVar[points];5]]
+$title[**Farm**]
+$description[Tu as maintenant $sum[$getUserVar[points];5] CyberPoints]
+$color[00ff00]
+$footer[CyberCode™]
