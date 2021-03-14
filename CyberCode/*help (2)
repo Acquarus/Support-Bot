@@ -1,0 +1,48 @@
+$nomention
+$argsCheck[>1;]
+$if[$message==serverinfo]
+$title[SERVEUR INFO]
+$description[
+Nom : `serverinfo`
+Alias : Bientôt
+Description : Informations sur le serveur]
+$color[00ff00]
+$endif
+$if[$message==userinfo]
+$title[USER INFO]
+$description[
+Nom : `userinfo`
+Alias : Bientôt 
+Description : Informations du membre mentionner]
+$color[00ff00]
+$endif
+$if[$message==pièce]
+$title[PILE OU FACE]
+$description[Nom : `pièce`
+Alias : Bientôt 
+Description : Pile ou face aléatoire]
+$color[00ff00]
+$endif
+$if[$message==pay]
+$title[PAY MONEY]
+$description[Nom : `pay`
+Alias : Bientôt 
+Description : Permet de donner ton argent a un utilisateur ]
+$color[00ff00]
+$endif
+$if[$message==warn]
+$title[WARN]
+$description[
+Nom : `warn`
+Alias : Bientôt 
+Description : Permet d'ajouter un avertissement à un utilisateur]
+$color[00ff00]
+$endif
+$if[$message==checkwarn]
+$title[CHECK WARN]
+$description[
+Nom : `checkwarn`
+Alias : Bientôt
+Description : Voir les avertissements du membre mentionné]
+$color[0087fd]
+$endif 
