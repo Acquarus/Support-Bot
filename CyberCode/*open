@@ -1,0 +1,18 @@
+$newTicket[816776561835245578;Pas de
+message;Bonjour $username
+
+Pour fermer ton ticket marque ici  dans le channel la commande *close 
+
+
+
+Merci D'avoir crée un ticket
+
+Veullez noter tous vos problème. Notre temps de réponse devrait être d'environ 10 minutes  si nous sommes en ligne.
+**Subject**
+{subject};Le Channel ticket
+a été crée 
+{channel};**error** Veuillez  réessayer]
+$deleteIn[5s]
+$deletecommand
+$onlyIf[$guildID!=;]
+$channelSendMessage[818055391006949436;$username a ouvert un ticket ]
