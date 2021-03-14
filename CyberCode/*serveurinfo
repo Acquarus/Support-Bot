@@ -1,0 +1,8 @@
+$nomention 
+$serverInfo[
+Nom du serveur: {name}
+Propriétaire: {owner}
+Emoji personalisé: {emoji}
+Localisation du serveur : {region}
+]
+$color[00ff00]
