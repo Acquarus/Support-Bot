@@ -5,6 +5,8 @@
  warn = 0
  points = 0
  
+ Si la commande a un (2) dans le nom il ne faut pas le mettre ais il faut mettre le meme nom 2 fois sur les commandes 
+ 
  Le projet et le bot appatriennent entièrement a liamgen#1041. Il a donc le droit de l'arreter a tout moment
  
  Les commandes sont privées et ne doivent être en aucun cas utilisé sur un autre bot sans la permission du propriétaire 
