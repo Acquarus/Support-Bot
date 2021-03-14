@@ -1,0 +1,11 @@
+$nomention
+$onlyPerms[ban;Il te manque la permissions : `BANIR DES MEMBRES`]
+$argsCheck[>1;`*ban @user`]
+$allowMention
+$onlyBotPerms[ban;Il me faut la permission bannir]
+$onlyIf[$userExists[$mentioned[1]]==true;Veuillez mentionner une personne existante]
+$ban[$mentioned[1]]
+$title[Bannissement]
+$description[$username à bien banni $username[$mentioned[1]]]
+$addTimestamp
+$onlyIf[$guildID!=;]
