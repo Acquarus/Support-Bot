@@ -1,0 +1,8 @@
+$nomention
+$argsCheck[1;`*kick @user`]
+$onlyPerms[kick;Tu n'as pas la permission `KICK.MEMBERS`]
+$kickMention
+$allowMention
+$onlyIf[$guildID!=;]
+$description[Tu as kick $username[$mentioned[1]]]
+$color[00ff00]
