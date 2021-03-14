@@ -1,0 +1,10 @@
+$nomention
+$argsCheck[2;`*pay (nombre) @user`]
+$title[**PAY**]
+$description[
+Tu viens de donner $message[1] a <@$mentioned[1]> ]
+$color[00ff00]
+$footer[CyberCode]
+$onlyIf[$message[1]<=$getUserVar[points;$authorID]; Tu n'as pas **$message[1]** cyberpoints]
+$setUserVar[points;$sum[$getUserVar[points;$mentioned[1]];$message[1]];$mentioned[1]]
+$setUserVar[points;$sub[$getUserVar[points];$message[1]]]
