@@ -1,0 +1,15 @@
+$nomention
+$argsCheck[>3;`*gstart (temps s/m/h) (salon) (lot)`]
+$useChannel[$mentionedChannels[1]]
+$title[**🎉 Nouveau GIVEAWAY 🎉**]
+$description[
+
+⌚ **Temps** : $message[1]
+🎁 **Lot** : $message[4] $message[5] $message[6] $message[7] $message[8] $message[9] $message[10]
+]
+$footer[CyberCode]
+$addTimestamp
+$addReactions[🎉]
+$botTyping
+$editEmbedIn[$message[1];GIVEAWAY ENDED;;Ce giveaway est terminé !;00ff00]
+$onlyAdmin[Tu n'as pas la permission administrateur]
