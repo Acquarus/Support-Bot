@@ -1,0 +1,10 @@
+$nomention
+$deletecommand
+$argsCheck[1;`*unmute @user`]
+$takeRole[$mentioned[1];816773016323096587]
+$title[Unmute !]
+$color[D7342A]
+$description[<@$mentioned[1;no]> a bien été unmute .]
+$footer[Unmute par $username • $day/$month/$year - $hour:$minute .]
+$onlyPerms[manageroles;Tu n'as pas la permission d'exécuter ceci !]
+$suppressErrors
