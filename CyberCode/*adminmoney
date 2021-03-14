@@ -1,0 +1,10 @@
+$nomention
+$argsCheck[2;`*adminmoney (nombre) @user`]
+$onlyAdmin[Tu n'as pas la permission administrateur]
+$title[ Ajout d'argent ]
+$description[
+Tu viens d'ajouter $$message[1] a <@$mentioned[1]> ]
+$color[00ff00]
+$footer[]
+
+$setUserVar[points;$sum[$getUserVar[points;$mentioned[1]];$message[1]];$mentioned[1]]
