@@ -1,0 +1,8 @@
+$onlyPerms[managemessages;Commande réservé aux administrateurs et aux modérateurs]
+$nomention
+$argsCheck[>1;`*clear (nombre de messages)`]
+$clear[$message]
+$description[Tu as supprimer $message messages !]
+$color[00ff00]
+$deleteIn[3s]
+$deletecommand
