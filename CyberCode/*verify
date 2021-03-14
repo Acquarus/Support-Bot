@@ -1,0 +1,9 @@
+$nomention
+$title[Captcha]
+$image[https://octoritu.sirv.com/1211368-fond-de-reseau-informatique-global-technology-gratuit-vectoriel.jpg?text.0.text=$random[111111;9999999]&text.0.position.x=-5%25&text.0.position.y=-30%25&text.0.size=90&text.0.color=f00c0c&text.0.opacity=57&text.0.font.family=Martel&text.0.font.weight=600]
+$setUserVar[captcha;$random[111111;9999999]]
+$color[00ff00]
+$deleteIn[2m]
+$awaitFunc[c1]
+$suppressErrors[Une erreur s'est produite]
+$deletecommand
